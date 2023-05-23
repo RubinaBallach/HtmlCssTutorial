@@ -1,5 +1,6 @@
 body {font-family: Arial;}
-h1{font-weight: bolder;font-family: Arial;font-style: italic;}
+.header {position:fixed; width:300px; height:fit-content; top: 10px; background-color: darkseagreen;}
+h1{font-weight: bolder;font-family: Arial;color: rgb(45, 90, 34);}
 h2{font-weight:lighter}
 p {color:turquoise;font-style:italic}
 img { height: 200px; border:4px dotted}
