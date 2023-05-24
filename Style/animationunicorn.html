@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            height: 100vh;
+            display: grid;
+            place-items:center;
+            color: rgb(235, 11, 44);
+            font-family: monospace;
+            font-size: 24px;
+        }
+        .frontend {
+            height:60px;
+        }
+
+        .backend{
+            scale: -1;
+        }
+        .unicorn{
+            scale: 3;
+            height: 40px
+        }
+        div{
+            text-align: center;
+        }
+        @keyframes rotate{
+            0% {rotate:0deg;}
+            50% {rotate:180deg;}
+            100% {rotate:360deg;}
+        }
+        main {
+            animation: rotate 10s infinite;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="frontend">Frontend</div>
+        <!--https://emojimedia.org/search/?q=unicorn -->
+        <div class="unicorn">🦄</div>
+        <div class="backend">backend</div>
+    </main>
+    
+</body>
+</html>

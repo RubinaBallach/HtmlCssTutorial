@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <head>
     <title>My Website</title>
+    <script>
+        function submitForm(){
+            var name= document.getElementById("username").value;
+            alert("Form submitted! name:" + name);
+            return false; //Prevent form submission
+        }
+    </script>
 </head>
 <body>
-    <form>
+    <form onsubmit="return submitForm()>
      <p>
-        <label>Username : <input type="text" name="username"></label>
+        <label>username : <input type="text" name="username"></label>
     </p>
     <p>
         <label>Password : <input type="password" name="password"></label>
